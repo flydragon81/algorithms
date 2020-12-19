@@ -1,4 +1,12 @@
+'''Functions'''
+
+
 def find_smallest_number(data):
+    """
+
+    :param data: list
+    :return: int
+    """
     idx = 0
     found = data[idx]
     i = 0
@@ -12,6 +20,11 @@ def find_smallest_number(data):
 
 
 def find_biggest_number(data):
+    """
+
+    :param data: list
+    :return: int
+    """
     idx = 0
     found = data[idx]
     i = 0

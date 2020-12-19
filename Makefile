@@ -14,5 +14,5 @@ test:
 .PHONY: test
 
 lint:
-	pylint *.py --ignore-patterns=test_.*?py,__init*
+	pylint *.py --ignore-patterns=__init*
 .PHONY: lint
